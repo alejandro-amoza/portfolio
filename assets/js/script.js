@@ -149,6 +149,24 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// Enviar formulario usando EmailJS
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); // Evitar el envío tradicional del formulario
+
+  // Tomar los datos del formulario
+  const formData = new FormData(form);
+  
+  // Enviar el correo usando EmailJS
+  emailjs.sendForm('service_kwdffz7', 'template_f08jb4s', formData)
+    .then(function(response) {
+      console.log('SUCCESS', response);
+      alert('¡Mensaje enviado con éxito!');
+    }, function(error) {
+      console.log('FAILED', error);
+      alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
+    });
+});
+
 
 
 // Obtener todos los enlaces de navegación y las secciones
