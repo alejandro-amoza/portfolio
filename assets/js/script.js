@@ -130,6 +130,9 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 
+/// Inicializar EmailJS con la API Key pública
+emailjs.init("Waphoap0mTwheekS9");
+
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
@@ -149,22 +152,28 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-// Enviar formulario usando EmailJS
-form.addEventListener("submit", function(event) {
+// Cuando el formulario se envíe
+form.addEventListener("submit", function (event) {
   event.preventDefault(); // Evitar el envío tradicional del formulario
 
-  // Tomar los datos del formulario
-  const formData = new FormData(form);
-  
-  // Enviar el correo usando EmailJS
-  emailjs.sendForm('service_kwdffz7', 'template_f08jb4s', formData)
-    .then(function(response) {
-      console.log('SUCCESS', response);
-      alert('¡Mensaje enviado con éxito!');
-    }, function(error) {
-      console.log('FAILED', error);
-      alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
-    });
+  // Obtener los valores del formulario
+  const fullname = form.fullname.value;
+  const email = form.email.value;
+  const message = form.message.value;
+
+  // Enviar el correo a través de EmailJS
+  emailjs.send("service_scbzt39", "template_abc123", {
+    fullname: fullname,
+    email: email,
+    message: message
+  })
+  .then(function(response) {
+    console.log("Mensaje enviado exitosamente", response);
+    alert('¡Mensaje enviado con éxito!');
+  }, function(error) {
+    console.log("Error al enviar el mensaje", error);
+    alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
+  });
 });
 
 
