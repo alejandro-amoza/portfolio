@@ -163,9 +163,10 @@ form.addEventListener("submit", function (event) {
 
   // Enviar el correo a través de EmailJS
   emailjs.send("service_scbzt39", "template_abc123", {
-    fullname: fullname,
-    email: email,
-    message: message
+    from_name: fullname,   // Cambiar a 'from_name'
+    to_name: "Your Name",  // Cambia "Your Name" a tu nombre o el destinatario deseado
+    message: message,
+    reply_to: email        // Para que se incluya la dirección de correo en el mensaje
   })
   .then(function(response) {
     console.log("Mensaje enviado exitosamente", response);
