@@ -51,3 +51,7 @@ Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como *
 
 
 📌 Este **portfolio está en constante actualización**, donde seguiré incorporando nuevos aprendizajes y experiencias en el mundo del testing.
+
+
+
+> ⚠️ **Aviso de autoría**: Este portfolio y sus contenidos (README, CV, ejemplos, etc.) son propiedad de **Alejandro Amoza**. Uso personal permitido. No está autorizado su uso comercial ni la redistribución sin consentimiento explícito.
