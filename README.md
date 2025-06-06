@@ -39,10 +39,11 @@ Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como *
 ## 🎓 Formación
 📌 Cursos y certificaciones que he completado:
 
-- 🎓 **Apache Jmeter (con Rodrigo V. Nieto)** – Udemy *(2025)*
-- 🎓 **Postman (con The Free Range Tester)** – Udemy *(2024)*
-- 🎓 **API Testing (con Nadia Cavalleri)** – Udemy *(2024)*
-- 🎓 **Cypress: Master en automatización en QA (con Rodrigo V. Nieto)** – Udemy *(2023)*
+- 🎓 **Apache Jmeter (Rodrigo V. Nieto)** – Udemy *(2025)*
+- 🎓 **Postman (The Free Range Tester)** – Udemy *(2024)*
+- 🎓 **API Testing (Nadia Cavalleri)** – Udemy *(2024)*
+- 🎓 **Selenium WebDriver with Java (Rahul Shetty)** – Udemy *(2024)*
+- 🎓 **Cypress: Master en automatización en QA (Rodrigo V. Nieto)** – Udemy *(2023)*
 - 🗣 **Inglés B1-B2** – Liceo Cultural Británico *(2023)*
 - 🎓 **Carrera de Testing QA** – Educación IT *(2022)*
 - 🎓 **Licenciatura en Audiovisión** – Universidad Nacional de Lanús *(2019 - En curso)*
