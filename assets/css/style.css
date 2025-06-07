@@ -2263,3 +2263,63 @@ textarea.form-input::-webkit-resizer {
   }
 
 }
+
+/* Estilos para pantallas pequeñas (mobile) */
+@media (max-width: 768px) {
+
+  .avatar-box img {
+    width: 100px;
+  }
+
+  .testimonials-avatar-box {
+    position: static;
+    transform: none;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials-avatar-box img,
+  .modal-avatar-box img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .sidebar {
+    position: static;
+    padding-top: 20px;
+  }
+
+  .sidebar-info {
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .info-content .name {
+    white-space: normal;
+    text-align: left;
+  }
+
+  .main-content {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+
+  .timeline-text {
+    max-width: 100%;
+  }
+
+  .footer {
+    font-size: 0.65rem;
+    padding: 10px;
+  }
+}
+
