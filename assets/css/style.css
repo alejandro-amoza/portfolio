@@ -563,8 +563,7 @@ main {
 \*-----------------------------------*/
 
 .about .article-title {
-   margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .about-text {
@@ -859,8 +858,7 @@ main {
  */
 
 .clients {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .clients-list {
@@ -870,8 +868,7 @@ main {
   gap: 15px;
   margin: 0 -15px;
   padding: 25px;
-   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -2249,7 +2246,7 @@ textarea.form-input::-webkit-resizer {
 
   .footer {
     text-align: center;
-   padding: 15px 20px;
+    padding: 5px 20px;
     background-color: #121212;
     color: #737373;
     font-size: 0.7rem;
