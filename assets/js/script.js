@@ -240,3 +240,5 @@ async function setLanguage(lang) {
 
 // Idioma inicial
 setLanguage('es');
+
+

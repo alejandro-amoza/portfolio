@@ -17,13 +17,12 @@
   "teamwork_desc": "Continuous communication with dev and QA teams to ensure product quality.",
   "testimonials": "Testimonials",
   "projects_title": "Projects",
-  
-    "experience": "Experience",
+  "experience": "Experience",
   "exp_title": "Experience",
   "work_experiencie": "Work experience",
   "experiencie": "Experience",
   "projects": "Projects",
-    "skills": "Skills",
+  "skills": "Skills",
   "exp_teamknowlogy": "• Manual and automated testing (Cypress and Selenium)...",
   "testimonial_1": "I had the opportunity to work with Alejandro...",
   "about_intro": "🔍 <b style='font-weight:800;'>QA Tester</b> with 2 years and 6 months of experience in the IT field performing manual and automated testing (Cypress / Selenium)",
@@ -31,7 +30,8 @@
   "about_growth": "🛠 <b style='font-weight:800;'>Constant growth:</b> I’m currently expanding my skills in automation, API testing, and continuous integration processes (CI/CD).",
   "about_goal": "🎯 <b style='font-weight:800;'>My goal:</b> To ensure the quality of web applications through meticulous testing and analysis of critical defects, providing exceptional user experiences and contributing to the continuous improvement of the products I work with.",
   "courses": "Courses completed",
-    "audiovision": "Degree in Audiovisual Studies",
+  "audiovision": "Degree in Audiovisual Studies",
+  "footer": "© 2025 Alejandro Amoza — Built with ❤️",
   "testimonial": {
     "agustin": "I had the opportunity to work with Alejandro for a while at TeamKnowlogy, and it was a very positive experience. As a QA Tester, he showed commitment, attention to detail, and excellent communication with the development team. Despite the short time we worked together, his professionalism and positive attitude left a great impression.",
     "lorenzo": "I worked with Ale while he was a QA and I was on the frontend development team. It was truly a pleasure to share a workspace with him. He was always highly committed and willing to help, proactive, and treated everyone with great respect. He was also very open to listening, collaborative, constructive, and always contributed from his role to help us deliver a better product. He brought positive energy even in the most high-pressure moments, and that made a big difference. It would be a privilege to work with him again.",
@@ -82,11 +82,11 @@
     "3": "• JavaScript from Scratch"
   },
   "skill": {
-        "1": "Automation with Cypress",
-        "2": "Automation with Selenium",
-        "3": "Manual testing (UI)",
-        "4": "JIRA",
-        "5": "SQL",
-        "6": "Postman"
-    }
+    "1": "Automation with Cypress",
+    "2": "Automation with Selenium",
+    "3": "Manual testing (UI)",
+    "4": "JIRA",
+    "5": "SQL",
+    "6": "Postman"
+  }
 }
