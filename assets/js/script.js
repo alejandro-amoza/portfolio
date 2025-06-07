@@ -44,21 +44,21 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
 
-  // Capturar la fecha y el enlace de LinkedIn del testimonio seleccionado
-  const dateElement = this.querySelector("[data-testimonials-date]");
-  const dateText = dateElement.textContent;
-  const linkedInURL = dateElement.getAttribute("data-testimonials-link");
+    // Capturar la fecha y el enlace de LinkedIn del testimonio seleccionado
+    const dateElement = this.querySelector("[data-testimonials-date]");
+    const dateText = dateElement.textContent;
+    const linkedInURL = dateElement.getAttribute("data-testimonials-link");
 
-  // Actualizar el contenido del <time> en el modal
-  if (linkedInURL) {
-    modalDate.innerHTML = `<a href="${linkedInURL}" target="_blank">${dateText}</a>`;
-  } else {
-    modalDate.textContent = dateText;
-  }
+    // Actualizar el contenido del <time> en el modal
+    if (linkedInURL) {
+      modalDate.innerHTML = `<a href="${linkedInURL}" target="_blank">${dateText}</a>`;
+    } else {
+      modalDate.textContent = dateText;
+    }
 
-  modalDate.setAttribute("datetime", dateElement.getAttribute("datetime"));
+    modalDate.setAttribute("datetime", dateElement.getAttribute("datetime"));
 
-   testimonialsModalFunc();
+    testimonialsModalFunc();
 
   });
 
@@ -168,13 +168,13 @@ form.addEventListener("submit", function (event) {
     message: message,
     reply_to: email        // Para que se incluya la dirección de correo en el mensaje
   })
-  .then(function(response) {
-    console.log("Mensaje enviado exitosamente", response);
-    alert('¡Mensaje enviado con éxito!');
-  }, function(error) {
-    console.log("Error al enviar el mensaje", error);
-    alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
-  });
+    .then(function (response) {
+      console.log("Mensaje enviado exitosamente", response);
+      alert('¡Mensaje enviado con éxito!');
+    }, function (error) {
+      console.log("Error al enviar el mensaje", error);
+      alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
+    });
 });
 
 
@@ -219,13 +219,13 @@ async function setLanguage(lang) {
     const response = await fetch(`./assets/i18n/${lang}.json`);
     const translations = await response.json();
 
-   document.querySelectorAll('[data-i18n]').forEach(el => {
-  const key = el.getAttribute('data-i18n');
-  const value = getNestedValue(translations, key);
-  if (value) {
-    el.textContent = value;
-  }
-});
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      const value = getNestedValue(translations, key);
+      if (value) {
+        el.textContent = value;
+      }
+    });
 
     document.querySelectorAll('[data-i18n-html]').forEach(el => {
       const key = el.getAttribute('data-i18n-html');
@@ -238,7 +238,25 @@ async function setLanguage(lang) {
   }
 }
 
+
+
 // Idioma inicial
 setLanguage('es');
+
+
+const btn = document.querySelector('[data-sidebar-btn]');
+const moreInfo = document.querySelector('.sidebar-info_more');
+
+btn.addEventListener('click', () => {
+  if(moreInfo.style.height && moreInfo.style.height !== '0px'){
+    // cerrar
+    moreInfo.style.height = '0';
+  } else {
+    // abrir
+    moreInfo.style.height = moreInfo.scrollHeight + 'px';
+  }
+});
+
+
 
 
