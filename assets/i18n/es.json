@@ -1,0 +1,91 @@
+{
+    "about_nav": "Acerca de mí",
+    "cv_nav": "CV",
+    "email": "Correo electrónico",
+    "telephone": "Celular",
+    "age": "Edad",
+    "location": "Ubicación",
+    "about_title": "Sobre mí",
+    "skills_title": "¿Qué sé hacer?",
+    "qa_manual": "QA Manual",
+    "qa_manual_desc": "Creación y ejecución de casos de prueba. Reporte y seguimiento de bugs",
+    "qa_auto": "QA Automation",
+    "qa_auto_desc": "Desarrollo y ejecución de scripts automatizados con Cypress y Selenium.",
+    "dict": "Diccionario y traducciones",
+    "dict_desc": "Gestión de traducciones de Aplicaciones Web con Excel+IA.",
+    "teamwork": "Trabajo en equipo",
+    "teamwork_desc": "Comunicación continua con los equipos de desarrollo y QA...",
+    "testimonials": "Testimonios",
+    "projects_title": "Proyectos",
+    "experience": "Experiencia",
+    "exp_title": "Experiencia",
+    "work_experiencie": "Experiencia laboral",
+    "experiencie": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "exp_teamknowlogy": "• Testing manual y automatizado (Cypress y Selenium)...",
+    "testimonial_1": "Tuve la oportunidad de trabajar con Alejandro...",
+    "about_intro": "🔍 <b style='font-weight:800;'>QA Tester</b> con 2 años y 6 meses de experiencia en el área de IT realizando pruebas manuales y automatizadas (Cypress / Selenium)",
+    "about_methods": "🚀 <b style='font-weight:800;'>Metodologías:</b> Trabajo con metodologías ágiles, principalmente Kanban, y utilizo herramientas como Jira para gestionar eficientemente el ciclo de vida de bugs y casos de prueba.",
+    "about_growth": "🛠 <b style='font-weight:800;'>En constante crecimiento:</b> Actualmente, amplío mis habilidades en automatización, pruebas de APIs y procesos de integración continua (CI/CD).",
+    "about_goal": "🎯 <b style='font-weight:800;'>Mi objetivo:</b> Garantizar la calidad de las aplicaciones web mediante un enfoque meticuloso en las pruebas y el análisis de defectos críticos y asegurar una experiencia de usuario excepcional y aportar a la mejora continua de los productos con los que trabajo.",
+    "courses": "Cursos realizados",
+    "audiovision": "Licenciatura en Audiovisión",
+    "testimonial": {
+        "agustin": "Tuve la oportunidad de trabajar con Alejandro durante un tiempo en TeamKnowlogy y fue una experiencia muy positiva. Como QA Tester, demostró compromiso, atención al detalle y una muy buena comunicación con el equipo de desarrollo. A pesar del corto tiempo compartido, su profesionalismo y buena predisposición dejaron una excelente impresión.",
+        "lorenzo": "Trabajé con Ale siendo él QA y yo estando en desarrollo frontend. La verdad, un placer compartir espacio de trabajo. Siempre con una gran predisposición y compromiso constante con el equipo, resolutivo y con el mejor de los tratos con todos! Además, super abierto a la escucha, al trabajo en equipo, constructivo y siempre aportando desde su rol para que podamos entregar un mejor producto. Transmitía buena energía incluso en los momentos de más presión, y eso hacía una gran diferencia. Sería un lujo volver a compartir equipo con él.",
+        "julio": "Es un placer recomendar a Alejandro como un profesional excepcional con quien he tenido el privilegio de trabajar. Durante nuestro tiempo juntos, he podido apreciar su dedicación inquebrantable, su calidez humana y su notable profesionalismo. Alejandro destaca por su capacidad para mantener un alto nivel de compromiso y excelencia en todo lo que hace. Su enfoque meticuloso en las tareas y su habilidad para superar obstáculos demuestran su compromiso con la calidad y la eficiencia en el trabajo. Además de sus habilidades técnicas, su empatía y respeto hacia sus colegas son verdaderamente admirables. Siempre está dispuesto a escuchar y ofrecer apoyo, lo que crea un ambiente de trabajo colaborativo y armonioso. En resumen, Alejandro es una persona excepcional tanto profesional como personalmente. Su ética de trabajo, su empatía y su compromiso con la excelencia son ejemplos a seguir para todos los que tienen el privilegio de trabajar a su lado.",
+        "ramiro": "Alejandro, Una de las mejores personas que me toco conocer en todos mis trabajos de desarrollo de software. Una persona que busca soluciones en todo momento, que jamás te abandonará en momentos dificiles y que la proactividad laboral es un don nato anexo a él. La capacidad de aprendizaje y adaptabilidad a nuevos entornos son algunas de sus virtudes que más me han sorprendido a lo largo de los años trabajando junto a él. Pocas personas tan recomendables y que me ha resultado tan fácil escribir estas palabras refiriendome a Alejandro. En resumen, un empleado que todas las empresas (pequeñas, medianas y grandes) desearían tener presente.",
+        "dani": "Compartí equipo de trabajo con Alejandro y fue un excelente compañero, es una persona que siempre está predispuesta a ayudar y muy atenta ante cualquier detalle."
+    },
+    "teamknowlogy": {
+        "1": "Testing manual y automation (Cypress y Selenium) en aplicacion WEB.",
+        "2": "Interpretación de Casos de Uso, requerimientos e historias de usuario.",
+        "3": "Diseño y ejecución de casos de prueba",
+        "4": "Registro de bugs y seguimiento hasta su resolución.",
+        "5": "Seguimiento y control de actividades a través de JIRA",
+        "6": "Trabajo bajo metodologías Kanban"
+    },
+    "elektrothermit": {
+        "1": "Encargado del sector de compras",
+        "2": "Atencion presencial y telefónica a proveedores",
+        "3": "Analisis y comparaciones de precios y prestaciones de servicios",
+        "4": "Manejo de SQL para la gestion de logística de personal y obras",
+        "5": "Asistencia al sector contable en carga de facturación de clientes/proveedores",
+        "6": "Tareas de cobranzas"
+    },
+    "mad": {
+        "1": "Trabajo part-time temporal",
+        "2": "Tareas de asistencia de grabacion profesional en Protools",
+        "3": "Monitoreo de sonido en vivo.",
+        "4": "Tareas de Community Manager",
+        "5": "Servicios audiovisuales"
+    },
+    "akua": {
+        "1": "Pasantía realizando tareas de tramitación de documentación y confección de mails, informes y documentos en general",
+        "2": "Labores en facturación y remitos",
+        "3": "Asistencia en la gestion de horarios de los empleados",
+        "4": "Clasificación,distribución de correspondencia y documentación recibida"
+    },
+    "course": {
+        "1": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
+        "2": "Postman (The free range tester) - Udemy (2024)",
+        "3": "API Testing (Nadia Cavalleri) - Udemy (2024)",
+        "4": "Selenium WebDriver with Java (Rahul Shetty) - Udemy (2024)",
+        "5": "Cypress: Master en automatización en QA (Rodrigo V. Nieto) - Udemy (2023)"
+    },
+    "it_education": {
+        "0": "Carrera en QA",
+        "1": "• Tester QA Manual",
+        "2": "• Introducción a Bases de datos y SQL",
+        "3": "• Javascript desde cero"
+    },
+    "skill": {
+        "1": "Automation con Cypress",
+        "2": "Automation con Selenium",
+        "3": "Testing manual (UI)",
+        "4": "JIRA",
+        "5": "SQL",
+        "6": "Postman"
+    }
+}

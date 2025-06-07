@@ -186,7 +186,7 @@ const pages = document.querySelectorAll('[data-page]');
 // Añadir el evento de clic a cada enlace del navbar
 navigationLinks.forEach(link => {
   link.addEventListener('click', function () {
-    const targetPage = this.textContent.trim().toLowerCase(); // Obtener el texto del botón de navegación
+    const targetPage = this.getAttribute('data-page');
 
     // Recorrer todas las secciones
     pages.forEach(page => {
@@ -209,3 +209,34 @@ navigationLinks.forEach(link => {
     this.classList.add('active'); // Añadir la clase 'active' al botón de navegación actual
   });
 });
+
+function getNestedValue(obj, key) {
+  return key.split('.').reduce((o, i) => (o ? o[i] : undefined), obj);
+}
+
+async function setLanguage(lang) {
+  try {
+    const response = await fetch(`./assets/i18n/${lang}.json`);
+    const translations = await response.json();
+
+   document.querySelectorAll('[data-i18n]').forEach(el => {
+  const key = el.getAttribute('data-i18n');
+  const value = getNestedValue(translations, key);
+  if (value) {
+    el.textContent = value;
+  }
+});
+
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      const key = el.getAttribute('data-i18n-html');
+      if (translations[key]) {
+        el.innerHTML = translations[key];
+      }
+    });
+  } catch (error) {
+    console.error(`Error loading language file: ${lang}`, error);
+  }
+}
+
+// Idioma inicial
+setLanguage('es');

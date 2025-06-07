@@ -307,7 +307,29 @@ main {
 }
 
 
+/*-----------------------------------*\
+  #LANGUAGE-BUTTON
+\*-----------------------------------*/
 
+.language-switcher {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Espacio entre las banderas */
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.lang-icon {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lang-icon:hover {
+  transform: scale(1.1); /* efecto al pasar el mouse */
+}
 
 
 /*-----------------------------------*\
@@ -768,7 +790,10 @@ main {
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover {
+  filter: grayscale(0);
+  opacity: 0.3; /* Esto agrega transparencia del 50% */
+}
 
 .itsabout-img {
   margin-top: 105px; /* Ajusta este valor hasta que esté alineado con la otra imagen */
@@ -1449,6 +1474,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
+  .testimonials-avatar-box:hover {
+  filter: grayscale(0);
+  opacity: 0.8; /* Esto agrega transparencia del 50% */
+}
+
   .testimonials-avatar-box img { width: 80px; }
 
   .testimonials-item-title {
@@ -1456,10 +1486,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-left: 95px;
   }
 
+  .testimonials-item-title:hover {
+  filter: grayscale(0);
+  opacity: 0.8; /* Esto agrega transparencia del 50% */
+}
+
   .testimonials-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
+
+  .testimonials-text:hover {
+  filter: grayscale(0);
+  opacity: 0.8; /* Esto agrega transparencia del 50% */
+}
 
   /* testimonials modal */
 

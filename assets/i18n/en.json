@@ -1,0 +1,92 @@
+{
+  "about_nav": "About Me",
+  "cv_nav": "Resume",
+  "email": "Email",
+  "telephone": "Mobile",
+  "age": "Age",
+  "location": "Location",
+  "about_title": "About Me",
+  "skills_title": "What can I do?",
+  "qa_manual": "Manual QA",
+  "qa_manual_desc": "Creation and execution of test cases.  Bug reporting and tracking.",
+  "qa_auto": "QA Automation",
+  "qa_auto_desc": "Script development and execution using Cypress and Selenium.",
+  "dict": "Dictionary & Translations",
+  "dict_desc": "Management of web app translations using Excel + AI.",
+  "teamwork": "Teamwork",
+  "teamwork_desc": "Continuous communication with dev and QA teams to ensure product quality.",
+  "testimonials": "Testimonials",
+  "projects_title": "Projects",
+  
+    "experience": "Experience",
+  "exp_title": "Experience",
+  "work_experiencie": "Work experience",
+  "experiencie": "Experience",
+  "projects": "Projects",
+    "skills": "Skills",
+  "exp_teamknowlogy": "• Manual and automated testing (Cypress and Selenium)...",
+  "testimonial_1": "I had the opportunity to work with Alejandro...",
+  "about_intro": "🔍 <b style='font-weight:800;'>QA Tester</b> with 2 years and 6 months of experience in the IT field performing manual and automated testing (Cypress / Selenium)",
+  "about_methods": "🚀 <b style='font-weight:800;'>Methodologies:</b> I work with agile methodologies, mainly Kanban, and use tools like Jira to efficiently manage the bug lifecycle and test cases.",
+  "about_growth": "🛠 <b style='font-weight:800;'>Constant growth:</b> I’m currently expanding my skills in automation, API testing, and continuous integration processes (CI/CD).",
+  "about_goal": "🎯 <b style='font-weight:800;'>My goal:</b> To ensure the quality of web applications through meticulous testing and analysis of critical defects, providing exceptional user experiences and contributing to the continuous improvement of the products I work with.",
+  "courses": "Courses completed",
+    "audiovision": "Degree in Audiovisual Studies",
+  "testimonial": {
+    "agustin": "I had the opportunity to work with Alejandro for a while at TeamKnowlogy, and it was a very positive experience. As a QA Tester, he showed commitment, attention to detail, and excellent communication with the development team. Despite the short time we worked together, his professionalism and positive attitude left a great impression.",
+    "lorenzo": "I worked with Ale while he was a QA and I was on the frontend development team. It was truly a pleasure to share a workspace with him. He was always highly committed and willing to help, proactive, and treated everyone with great respect. He was also very open to listening, collaborative, constructive, and always contributed from his role to help us deliver a better product. He brought positive energy even in the most high-pressure moments, and that made a big difference. It would be a privilege to work with him again.",
+    "julio": "It is a pleasure to recommend Alejandro as an exceptional professional with whom I’ve had the privilege to work. During our time together, I was able to witness his unwavering dedication, human warmth, and remarkable professionalism. Alejandro stands out for his ability to maintain a high level of commitment and excellence in everything he does. His meticulous approach to tasks and his ability to overcome challenges reflect his strong focus on quality and efficiency. Beyond his technical skills, his empathy and respect for his colleagues are truly admirable. He is always willing to listen and offer support, fostering a collaborative and harmonious work environment. In short, Alejandro is an outstanding person both professionally and personally. His work ethic, empathy, and commitment to excellence are an example to everyone who has the privilege of working alongside him.",
+    "ramiro": "Alejandro is one of the best people I’ve had the chance to meet throughout all my years working in software development. He’s someone who constantly looks for solutions, who will never leave you alone in difficult moments, and whose proactivity at work feels like a natural gift. His ability to learn and adapt to new environments are among the qualities that have impressed me the most over the years working alongside him. There are very few people I would recommend as strongly, and writing these words about Alejandro comes incredibly easily. In short, he’s the kind of employee every company—small, medium, or large—would be lucky to have on their team.",
+    "dani": "I had the pleasure of working on the same team as Alejandro, and he was an excellent colleague. He’s someone who is always willing to help and very attentive to every detail."
+  },
+  "teamknowlogy": {
+    "1": "Manual and automated testing (Cypress and Selenium) on a web application.",
+    "2": "Interpretation of use cases, requirements, and user stories.",
+    "3": "Design and execution of test cases.",
+    "4": "Logging bugs found and tracking until they are fixed.",
+    "5": "Tracking activities using JIRA.",
+    "6": "Working under agile methodologies (Kanban)."
+  },
+  "elektrothermit": {
+    "1": "In charge of the purchasing department",
+    "2": "In-person and phone support to suppliers",
+    "3": "Analysis and comparison of prices and service features",
+    "4": "SQL management for personnel and project logistics",
+    "5": "Assistance to accounting department with client/supplier invoicing",
+    "6": "Collections tasks"
+  },
+  "mad": {
+    "1": "Temporary part-time job",
+    "2": "Assistance tasks in professional recording using Protools",
+    "3": "Live sound monitoring",
+    "4": "Community Manager tasks",
+    "5": "Audiovisual services"
+  },
+  "akua": {
+    "1": "Internship performing documentation processing and preparation of emails, reports, and general documents",
+    "2": "Billing and delivery note tasks",
+    "3": "Assistance in employee schedule management",
+    "4": "Sorting and distribution of incoming mail and documentation"
+  },
+  "course": {
+    "1": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
+    "2": "Postman (The free range tester) - Udemy (2024)",
+    "3": "API Testing (Nadia Cavalleri) - Udemy (2024)",
+    "4": "Selenium WebDriver with Java (Rahul Shetty) - Udemy (2024)",
+    "5": "Cypress: Mastering QA Automation (Rodrigo V. Nieto) – Udemy (2023)"
+  },
+  "it_education": {
+    "0": "QA Program",
+    "1": "• Manual QA Testing",
+    "2": "• Introduction to Databases and SQL",
+    "3": "• JavaScript from Scratch"
+  },
+  "skill": {
+        "1": "Automation with Cypress",
+        "2": "Automation with Selenium",
+        "3": "Manual testing (UI)",
+        "4": "JIRA",
+        "5": "SQL",
+        "6": "Postman"
+    }
+}
