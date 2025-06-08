@@ -1,9 +1,8 @@
 # 📌 Portfolio de QA
 
 ## 👤 Sobre mí
-Soy **QA Tester** con más de dos años de experiencia en pruebas manuales y conocimientos en automatización. Mi enfoque está en garantizar la calidad del software mediante el diseño y ejecución de casos de prueba, documentación detallada y el reporte y seguimiento de errores.
 
-Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como **JIRA, Postman, Cypress y SQL Server**. Me encuentro en constante formación, ampliando mis habilidades en **Selenium** y en **JMeter**.
+👋 ¡Hola! Soy Alejandro Amoza, QA Tester con más de 2 años de experiencia en pruebas manuales y los primeros pasos en automatización. Me especializo en garantizar calidad desde la fase de requerimientos hasta el despliegue.
 
 ---
 
@@ -50,9 +49,18 @@ Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como *
 
 ---
 
+## 📫 Contacto
+
+- 💼 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/alejandro-amoza)) 
+- 📧 amozaalejandro@email.com
+- 🌐 Portfolio web [Portfolio](https://alejandro-amoza.github.io/portfolio)
+
+---
+
 
 📌 Este **portfolio está en constante actualización**, donde seguiré incorporando nuevos aprendizajes y experiencias en el mundo del testing.
 
 
 
-> ⚠️ **Aviso de autoría**: Este portfolio y sus contenidos (README, CV, ejemplos, etc.) son propiedad de **Alejandro Amoza**. Uso personal permitido. No está autorizado su uso comercial ni la redistribución sin consentimiento explícito.
+>  💬 Este repositorio forma parte de mi portfolio profesional como QA Tester.  
+Sentite libre de explorarlo o contactarme si querés conversar sobre testing.  
