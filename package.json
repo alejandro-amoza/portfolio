@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-qa",
+  "version": "1.0.0",
+  "description": "Soy **QA Tester** con más de dos años de experiencia en pruebas manuales y conocimientos en automatización. Mi enfoque está en garantizar la calidad del software mediante el diseño y ejecución de casos de prueba, documentación detallada y el reporte y seguimiento de errores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3"
+  }
+}

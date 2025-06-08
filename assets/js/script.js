@@ -130,19 +130,19 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 
-/// Inicializar EmailJS con la API Key pública
+
 emailjs.init("Waphoap0mTwheekS9");
 
-// contact form variables
+
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 
-// add event to all form input field
+
 for (let i = 0; i < formInputs.length; i++) {
   formInputs[i].addEventListener("input", function () {
 
-    // check form validation
+
     if (form.checkValidity()) {
       formBtn.removeAttribute("disabled");
     } else {
@@ -152,21 +152,21 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
-// Cuando el formulario se envíe
-form.addEventListener("submit", function (event) {
-  event.preventDefault(); // Evitar el envío tradicional del formulario
 
-  // Obtener los valores del formulario
+form.addEventListener("submit", function (event) {
+  event.preventDefault(); 
+
+
   const fullname = form.fullname.value;
   const email = form.email.value;
   const message = form.message.value;
 
-  // Enviar el correo a través de EmailJS
+
   emailjs.send("service_scbzt39", "template_abc123", {
-    from_name: fullname,   // Cambiar a 'from_name'
-    to_name: "Your Name",  // Cambia "Your Name" a tu nombre o el destinatario deseado
+    from_name: fullname,  
+    to_name: "Your Name",  
     message: message,
-    reply_to: email        // Para que se incluya la dirección de correo en el mensaje
+    reply_to: email      
   })
     .then(function (response) {
       console.log("Mensaje enviado exitosamente", response);
@@ -179,34 +179,34 @@ form.addEventListener("submit", function (event) {
 
 
 
-// Obtener todos los enlaces de navegación y las secciones
+
 const navigationLinks = document.querySelectorAll('[data-nav-link]');
 const pages = document.querySelectorAll('[data-page]');
 
-// Añadir el evento de clic a cada enlace del navbar
+
 navigationLinks.forEach(link => {
   link.addEventListener('click', function () {
     const targetPage = this.getAttribute('data-page');
 
-    // Recorrer todas las secciones
-    pages.forEach(page => {
-      const pageName = page.dataset.page.trim().toLowerCase(); // Obtener el valor de data-page de la sección
 
-      // Si el texto del botón coincide con el data-page de la sección
+    pages.forEach(page => {
+      const pageName = page.dataset.page.trim().toLowerCase(); 
+
+
       if (targetPage === pageName) {
-        // Mostrar la sección y añadir la clase 'active'
+
         page.classList.add('active');
       } else {
-        // Ocultar la sección y quitar la clase 'active'
+
         page.classList.remove('active');
       }
     });
 
-    // Añadir la clase 'active' al botón de navegación
+
     navigationLinks.forEach(link => {
-      link.classList.remove('active'); // Eliminar la clase 'active' de todos los botones
+      link.classList.remove('active'); 
     });
-    this.classList.add('active'); // Añadir la clase 'active' al botón de navegación actual
+    this.classList.add('active');
   });
 });
 
