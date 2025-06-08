@@ -129,6 +129,30 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 
+
+
+//emailjs.init("Waphoap0mTwheekS9");
+
+
+const form = document.querySelector("[data-form]");
+const formInputs = document.querySelectorAll("[data-form-input]");
+const formBtn = document.querySelector("[data-form-btn]");
+
+
+for (let i = 0; i < formInputs.length; i++) {
+  formInputs[i].addEventListener("input", function () {
+
+
+    if (form.checkValidity()) {
+      formBtn.removeAttribute("disabled");
+    } else {
+      formBtn.setAttribute("disabled", "");
+    }
+
+  });
+}
+
+
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -175,7 +199,7 @@ navigationLinks.forEach(link => {
 
 
     pages.forEach(page => {
-      const pageName = page.dataset.page.trim().toLowerCase();
+      const pageName = page.dataset.page.trim().toLowerCase(); 
 
 
       if (targetPage === pageName) {
@@ -189,7 +213,7 @@ navigationLinks.forEach(link => {
 
 
     navigationLinks.forEach(link => {
-      link.classList.remove('active');
+      link.classList.remove('active'); 
     });
     this.classList.add('active');
   });
@@ -246,7 +270,7 @@ const btn = document.querySelector('[data-sidebar-btn]');
 const moreInfo = document.querySelector('.sidebar-info_more');
 
 btn.addEventListener('click', () => {
-  if (moreInfo.style.height && moreInfo.style.height !== '0px') {
+  if(moreInfo.style.height && moreInfo.style.height !== '0px'){
     // cerrar
     moreInfo.style.height = '0';
   } else {
