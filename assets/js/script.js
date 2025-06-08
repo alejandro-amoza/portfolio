@@ -199,7 +199,7 @@ navigationLinks.forEach(link => {
 
 
     pages.forEach(page => {
-      const pageName = page.dataset.page.trim().toLowerCase(); 
+      const pageName = page.dataset.page.trim().toLowerCase();
 
 
       if (targetPage === pageName) {
@@ -213,7 +213,7 @@ navigationLinks.forEach(link => {
 
 
     navigationLinks.forEach(link => {
-      link.classList.remove('active'); 
+      link.classList.remove('active');
     });
     this.classList.add('active');
   });
@@ -270,7 +270,7 @@ const btn = document.querySelector('[data-sidebar-btn]');
 const moreInfo = document.querySelector('.sidebar-info_more');
 
 btn.addEventListener('click', () => {
-  if(moreInfo.style.height && moreInfo.style.height !== '0px'){
+  if (moreInfo.style.height && moreInfo.style.height !== '0px') {
     // cerrar
     moreInfo.style.height = '0';
   } else {
@@ -278,6 +278,7 @@ btn.addEventListener('click', () => {
     moreInfo.style.height = moreInfo.scrollHeight + 'px';
   }
 });
+
 
 
 
