@@ -6,11 +6,6 @@
 
 ---
 
-## 📄 Currículum Vitae
-📌 Puedes descargar mi CV en formato PDF aquí: **[Ver en Google Drive](https://drive.google.com/drive/u/1/folders/15WaMY_9IG9rJGOgr3iDB8Zst75mQf-Nh)**
-
----
-
 ## 🛠 Habilidades
 📌 Estas son algunas de las habilidades que aplico en proyectos reales
 
@@ -51,6 +46,7 @@
 
 ## 📫 Contacto
 
+- 📌 Puedes descargar mi CV en formato PDF aquí: **[Ver en Google Drive](https://drive.google.com/drive/u/1/folders/15WaMY_9IG9rJGOgr3iDB8Zst75mQf-Nh)**
 - 💼 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/alejandro-amoza)) 
 - 📧 amozaalejandro@email.com
 - 🌐 Portfolio web [Portfolio](https://alejandro-amoza.github.io/portfolio)
