@@ -2,7 +2,9 @@
 
 ## 👤 Sobre mí
 
-👋 ¡Hola! Soy Alejandro Amoza, QA Tester con más de 2 años de experiencia en pruebas manuales y los primeros pasos en automatización. Me especializo en garantizar calidad desde la fase de requerimientos hasta el despliegue.
+👋 ¡Hola! Soy Alejandro Amoza, **QA Tester** con más de **2 años de experiencia** en pruebas manuales y conocimientos en automatización. Me enfoco en garantizar la calidad del software desde el análisis de requerimientos hasta la entrega final, asegurando procesos de testing eficientes y documentados.
+
+Trabajo con metodologías ágiles como **Kanban** y uso herramientas como **JIRA**, **Postman**, **Cypress**, **Selenium** y **SQL Server**. Me encuentro en formación constante para seguir creciendo profesionalmente.
 
 ---
 
