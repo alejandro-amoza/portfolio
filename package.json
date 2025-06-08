@@ -4,7 +4,8 @@
   "description": "Soy **QA Tester** con más de dos años de experiencia en pruebas manuales y conocimientos en automatización. Mi enfoque está en garantizar la calidad del software mediante el diseño y ejecución de casos de prueba, documentación detallada y el reporte y seguimiento de errores.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

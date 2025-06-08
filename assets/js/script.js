@@ -219,6 +219,7 @@ async function setLanguage(lang) {
     const response = await fetch(`./assets/i18n/${lang}.json`);
     const translations = await response.json();
 
+    // Texto plano
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
       const value = getNestedValue(translations, key);
@@ -227,12 +228,24 @@ async function setLanguage(lang) {
       }
     });
 
+    // HTML
     document.querySelectorAll('[data-i18n-html]').forEach(el => {
       const key = el.getAttribute('data-i18n-html');
-      if (translations[key]) {
-        el.innerHTML = translations[key];
+      const value = getNestedValue(translations, key);
+      if (value) {
+        el.innerHTML = value;
       }
     });
+
+    // Placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(input => {
+      const key = input.getAttribute('data-i18n-placeholder');
+      const value = getNestedValue(translations, key);
+      if (value) {
+        input.placeholder = value;
+      }
+    });
+
   } catch (error) {
     console.error(`Error loading language file: ${lang}`, error);
   }

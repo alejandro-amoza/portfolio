@@ -1251,19 +1251,20 @@
           <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Nombre y apellido" required
-                data-form-input>
+             <input type="text" name="fullname" class="form-input" placeholder="Nombre y apellido" required
+  data-form-input data-i18n-placeholder="fullname_placeholder">
+                
 
               <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required
-                data-form-input>
+                data-form-input data-i18n-placeholder="email_placeholder">
             </div>
 
             <textarea name="message" class="form-input" placeholder="Deja tu mensaje" required
-              data-form-input></textarea>
+              data-form-input data-i18n-placeholder="leave_message_placeholder"></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" disabled data-form-btn data-i18n="send">
               <ion-icon name="paper-plane"></ion-icon>
-              <span>Enviar</span>
+              <span></span>
             </button>
 
           </form>
