@@ -50,7 +50,7 @@ Trabajo con metodologías ágiles como **Kanban** y uso herramientas como **JIRA
 
 - 📌 Puedes descargar mi CV en formato PDF aquí: [Ver en Google Drive](https://drive.google.com/drive/u/1/folders/15WaMY_9IG9rJGOgr3iDB8Zst75mQf-Nh)
 - 💼 [LinkedIn](https://www.linkedin.com/in/alejandro-amoza)
-- 📧 [amozaalejandro@email.com](mailto:amozaalejandro@email.com)
+- 📧 [amozaalejandro@gmail.com](mailto:amozaalejandro@gmail.com)
 - 🌐 [Portfolio](https://alejandro-amoza.github.io/portfolio)
 
 ---
