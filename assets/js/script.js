@@ -129,51 +129,36 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 
-
-
-emailjs.init("Waphoap0mTwheekS9");
-
-
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
-
-
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
-
-
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
-
-  });
-}
-
-
 form.addEventListener("submit", function (event) {
-  event.preventDefault(); 
-
+  event.preventDefault();
 
   const fullname = form.fullname.value;
   const email = form.email.value;
   const message = form.message.value;
 
-
-  emailjs.send("service_scbzt39", "template_abc123", {
-    from_name: fullname,  
-    to_name: "Your Name",  
-    message: message,
-    reply_to: email      
+  fetch("https://portfolio-wc51.onrender.com/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      name: fullname,
+      email: email,
+      message: message
+    })
   })
-    .then(function (response) {
-      console.log("Mensaje enviado exitosamente", response);
-      alert('¡Mensaje enviado con éxito!');
-    }, function (error) {
-      console.log("Error al enviar el mensaje", error);
-      alert('Hubo un error al enviar el mensaje. Intenta nuevamente.');
+    .then((res) => {
+      if (res.ok) {
+        alert("¡Mensaje enviado con éxito!");
+        form.reset();
+        formBtn.setAttribute("disabled", "");
+      } else {
+        alert("Hubo un error al enviar el mensaje.");
+      }
+    })
+    .catch((err) => {
+      console.error("Error al enviar:", err);
+      alert("Error al enviar el mensaje. Intenta más tarde.");
     });
 });
 
@@ -190,7 +175,7 @@ navigationLinks.forEach(link => {
 
 
     pages.forEach(page => {
-      const pageName = page.dataset.page.trim().toLowerCase(); 
+      const pageName = page.dataset.page.trim().toLowerCase();
 
 
       if (targetPage === pageName) {
@@ -204,7 +189,7 @@ navigationLinks.forEach(link => {
 
 
     navigationLinks.forEach(link => {
-      link.classList.remove('active'); 
+      link.classList.remove('active');
     });
     this.classList.add('active');
   });
@@ -261,7 +246,7 @@ const btn = document.querySelector('[data-sidebar-btn]');
 const moreInfo = document.querySelector('.sidebar-info_more');
 
 btn.addEventListener('click', () => {
-  if(moreInfo.style.height && moreInfo.style.height !== '0px'){
+  if (moreInfo.style.height && moreInfo.style.height !== '0px') {
     // cerrar
     moreInfo.style.height = '0';
   } else {

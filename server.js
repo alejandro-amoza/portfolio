@@ -1,6 +1,6 @@
 const express = require('express');
-const nodemailer = require('nodemailer');
 const cors = require('cors');
+const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const app = express();
@@ -9,33 +9,38 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-app.post('/send', async (req, res) => {
+app.post('/contact', (req, res) => {
   const { fullname, email, message } = req.body;
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS
     }
   });
 
   const mailOptions = {
     from: email,
-    to: process.env.MAIL_USER,
+    to: process.env.EMAIL_USER,
     subject: `Mensaje de ${fullname}`,
     text: message
   };
 
-  try {
-    await transporter.sendMail(mailOptions);
-    res.status(200).send({ message: 'Mensaje enviado' });
-  } catch (error) {
-    console.error(error);
-    res.status(500).send({ message: 'Error al enviar el mensaje' });
-  }
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log('Error al enviar:', error);
+      return res.status(500).send('Error al enviar el mensaje.');
+    }
+    console.log('Correo enviado:', info.response);
+    res.status(200).send('Mensaje enviado.');
+  });
+});
+
+app.get('/', (req, res) => {
+  res.send('Backend en línea');
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en puerto ${PORT}`);
 });
