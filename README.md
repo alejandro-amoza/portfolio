@@ -38,7 +38,7 @@ Trabajo con metodologías ágiles como **Kanban** y uso herramientas como **JIRA
 - 🎓 **Apache Jmeter (Rodrigo V. Nieto)** – Udemy *(2025)*
 - 🎓 **Postman (The Free Range Tester)** – Udemy *(2024)*
 - 🎓 **API Testing (Nadia Cavalleri)** – Udemy *(2024)*
-- 🎓 **Selenium WebDriver with Java (Rahul Shetty)** – Udemy *(2024)*
+- 🎓 **Selenium with Java, Cucumber & Frameworks (Pavan Kumar)** – Udemy *(2024)*
 - 🎓 **Cypress: Master en automatización en QA (Rodrigo V. Nieto)** – Udemy *(2023)*
 - 🗣 **Inglés B1-B2** – Liceo Cultural Británico *(2023)*
 - 🎓 **Carrera de Testing QA** – Educación IT *(2022)*
