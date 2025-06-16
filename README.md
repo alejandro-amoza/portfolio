@@ -1,14 +1,10 @@
 # 📌 Portfolio de QA
 
 ## 👤 Sobre mí
-Soy **QA Tester** con más de dos años de experiencia en pruebas manuales y conocimientos en automatización. Mi enfoque está en garantizar la calidad del software mediante el diseño y ejecución de casos de prueba, documentación detallada y el reporte y seguimiento de errores.
 
-Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como **JIRA, Postman, Cypress y SQL Server**. Me encuentro en constante formación, ampliando mis habilidades en **Selenium** y en **JMeter**.
+👋 ¡Hola! Soy Alejandro Amoza, **QA Tester** con más de **2 años de experiencia** en pruebas manuales y conocimientos en automatización. Me enfoco en garantizar la calidad del software desde el análisis de requerimientos hasta la entrega final, asegurando procesos de testing eficientes y documentados.
 
----
-
-## 📄 Currículum Vitae
-📌 Puedes descargar mi CV en formato PDF aquí: **[Ver en Google Drive](https://drive.google.com/drive/u/1/folders/15WaMY_9IG9rJGOgr3iDB8Zst75mQf-Nh)**
+Trabajo con metodologías ágiles como **Kanban** y uso herramientas como **JIRA**, **Postman**, **Cypress**, **Selenium** y **SQL Server**. Me encuentro en formación constante para seguir creciendo profesionalmente.
 
 ---
 
@@ -42,11 +38,20 @@ Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como *
 - 🎓 **Apache Jmeter (Rodrigo V. Nieto)** – Udemy *(2025)*
 - 🎓 **Postman (The Free Range Tester)** – Udemy *(2024)*
 - 🎓 **API Testing (Nadia Cavalleri)** – Udemy *(2024)*
-- 🎓 **Selenium WebDriver with Java (Rahul Shetty)** – Udemy *(2024)*
+- 🎓 **Selenium with Java, Cucumber & Frameworks (Pavan Kumar)** – Udemy *(2024)*
 - 🎓 **Cypress: Master en automatización en QA (Rodrigo V. Nieto)** – Udemy *(2023)*
 - 🗣 **Inglés B1-B2** – Liceo Cultural Británico *(2023)*
 - 🎓 **Carrera de Testing QA** – Educación IT *(2022)*
 - 🎓 **Licenciatura en Audiovisión** – Universidad Nacional de Lanús *(2019 - En curso)*
+
+---
+
+## 📫 Contacto
+
+- 📌 Puedes descargar mi CV en formato PDF aquí: [Ver en Google Drive](https://drive.google.com/drive/u/1/folders/15WaMY_9IG9rJGOgr3iDB8Zst75mQf-Nh)
+- 💼 [LinkedIn](https://www.linkedin.com/in/alejandro-amoza)
+- 📧 [amozaalejandro@gmail.com](mailto:amozaalejandro@gmail.com)
+- 🌐 [Portfolio](https://alejandro-amoza.github.io/portfolio)
 
 ---
 
@@ -55,4 +60,5 @@ Trabajo con metodologías ágiles como **Kanban**, y utilizo herramientas como *
 
 
 
-> ⚠️ **Aviso de autoría**: Este portfolio y sus contenidos (README, CV, ejemplos, etc.) son propiedad de **Alejandro Amoza**. Uso personal permitido. No está autorizado su uso comercial ni la redistribución sin consentimiento explícito.
+>  💬 Este repositorio forma parte de mi portfolio profesional como QA Tester.  
+Sentite libre de explorarlo o contactarme si querés conversar sobre testing.  
