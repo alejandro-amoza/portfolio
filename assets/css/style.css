@@ -704,6 +704,12 @@ main {
   display: none;
 }
 
+.testimonials-role {
+  font-size: 0.55em;
+  color: var(--light-gray);
+  font-weight: normal;
+}
+
 
 /**
  * #testimonials-modal
