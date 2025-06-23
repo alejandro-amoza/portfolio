@@ -35,6 +35,9 @@ Trabajo con metodologías ágiles como **Kanban** y uso herramientas como **JIRA
 ## 🎓 Formación
 📌 Cursos y certificaciones que he completado:
 
+
+- 🎓 **ETL Data Testing (The Free Range Tester)** – Udemy *(2025)*
+- 🎓 **Playwrright (The Free Range Tester)** – Udemy *(2025)*
 - 🎓 **Apache Jmeter (Rodrigo V. Nieto)** – Udemy *(2025)*
 - 🎓 **Postman (The Free Range Tester)** – Udemy *(2024)*
 - 🎓 **API Testing (Nadia Cavalleri)** – Udemy *(2024)*
