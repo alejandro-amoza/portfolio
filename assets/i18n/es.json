@@ -80,11 +80,13 @@
         "4": "Clasificación,distribución de correspondencia y documentación recibida"
     },
     "course": {
-        "1": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
-        "2": "Postman (The free range tester) - Udemy (2024)",
+        "7": "ETL Data Testing (The free range tester) - Udemy (2025)",
+        "6": "Playwright (The free range tester) - Udemy (2025)",
+        "5": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
+        "4": "Postman (The free range tester) - Udemy (2024)",
         "3": "API Testing (Nadia Cavalleri) - Udemy (2024)",
-        "4": "Selenium WebDriver with Java (Rahul Shetty) - Udemy (2024)",
-        "5": "Cypress: Master en automatización en QA (Rodrigo V. Nieto) - Udemy (2023)"
+        "2": "Selenium WebDriver with Java (Rahul Shetty) - Udemy (2024)",
+        "1": "Cypress: Master en automatización en QA (Rodrigo V. Nieto) - Udemy (2023)"
     },
     "it_education": {
         "0": "Carrera en QA",
