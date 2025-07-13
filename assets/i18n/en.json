@@ -11,7 +11,7 @@
   "qa_manual_desc": "Creation and execution of test cases.  Bug reporting and tracking.",
   "qa_auto": "QA Automation",
   "qa_auto_desc": "Script development and execution using Cypress and Selenium.",
-    "api_testing": "API Testing",
+  "api_testing": "API Testing",
   "api_desc": "Exploration and validation of REST endpoints using Postman and Swagger.",
   "teamwork": "Teamwork",
   "teamwork_desc": "Continuous communication with dev and QA teams to ensure product quality.",
@@ -42,6 +42,8 @@
   "about_goal": "🎯 <b style='font-weight:800;'>My goal:</b> To ensure the quality of web applications through meticulous testing and analysis of critical defects, providing exceptional user experiences and contributing to the continuous improvement of the products I work with.",
   "courses": "Completed courses",
   "audiovision": "Degree in Audiovisual Studies",
+  "blog": "QA Lab",
+  "personal": "Practices",
   "footer": "© 2025 Alejandro Amoza — Built with ❤️",
   "testimonial": {
     "agustin": "I had the opportunity to work with Alejandro for a while at TeamKnowlogy, and it was a very positive experience. As a QA Tester, he showed commitment, attention to detail, and excellent communication with the development team. Despite the short time we worked together, his professionalism and positive attitude left a great impression.",
@@ -93,5 +95,19 @@
     "7": "Playwright (TypeScript)",
     "8": "Selenium (Python)",
     "9": "Jmeter"
+  },
+  "personal_projects": {
+    "selenium_python": "Automation Testing",
+    "selenium_python2": "SauceDemo with Selenium (Python)",
+    "selenium_python3": "End-to-end automation project using Selenium, Python, Pytest, and POM.",
+    "api_testing_playwright": "API Testing",
+    "api_testing_playwright2": "JsonPlaceholder API Testing with Playwright",
+    "api_testing_playwright3": "Validation of public endpoints: HTTP status, response structure, required fields, and generated ID.",
+    "ui_testing_playwright": "UI Testing",
+    "ui_testing_playwright2": "Automated Login in OrangeHRM",
+    "ui_testing_playwright3": "Test cases: valid login, invalid login, empty fields, and redirections.",
+    "api_testing_postman": "API Testing",
+    "api_testing_postman2": "FakeStoreAPI with Postman",
+    "api_testing_postman3": "Login and CRUD tests for products using Postman."
   }
 }

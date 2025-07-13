@@ -185,18 +185,20 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page="blog" data-i18n="blog"></button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link data-page="contact" data-i18n="contact"></button>
           </li>
           <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
-          
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
           -->
+
+
+
         </ul>
 
       </nav>
@@ -1077,11 +1079,11 @@
       <!--
         - #BLOG
       -->
-      <!--
+
       <article class="blog" data-page="blog">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title" data-i18n="personal"></h2>
         </header>
 
         <section class="blog-posts">
@@ -1089,26 +1091,26 @@
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://github.com/alejandro-amoza/saucedemo_selenium_python" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/saucedemo.png" alt="Automatización con Selenium Python" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category" data-i18n="personal_projects.selenium_python"></p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2025-07-11">11/07/2025</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.selenium_python2"></h3>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  <p class="blog-text" data-i18n="personal_projects.selenium_python3">
+
                   </p>
 
                 </div>
@@ -1117,26 +1119,53 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://github.com/alejandro-amoza/jsonPlaceholderAPI" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/playwright-api.jpg" alt="Playwright + JsonPlaceholder API Testing"
+                    loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_playwright"></p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2025-06-27">27/06/2025</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_playwright2"></h3>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_playwright3"></p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/orangehrm-playwright" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="/assets/images/orangehrm.jpg" alt="OrangeHRM con Playwright" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.ui_testing_playwright"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-06-13">13/06/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.ui_testing_playwright2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.ui_testing_playwright3">
+                    
                   </p>
 
                 </div>
@@ -1145,110 +1174,25 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://github.com/alejandro-amoza/fakestoreapi-postman" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/fakestoreapi.jpg" alt="FakeStoreAPI con Postman" loading=" lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_postman"></p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2025-06-01">01/06/2025</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_postman2"></h3>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_postman3">                 
                   </p>
 
                 </div>
@@ -1261,7 +1205,7 @@
         </section>
 
       </article>
-    -->
+
 
 
 
@@ -1331,8 +1275,8 @@
             <div class="button-group">
 
 
-              <a href="./assets/docs/CV - Alejandro Amoza.pdf" download class="contact-button" data-i18n="cv_es"></a>
-              <a href="./assets/docs/Resume  - Alejandro Amoza.pdf" download class="contact-button"
+              <a href="./assets/docs/CV - Alejandro amoza.pdf" download class="contact-button" data-i18n="cv_es"></a>
+              <a href="./assets/docs/Resume - Alejandro amoza.pdf" download class="contact-button"
                 data-i18n="cv_en"></a>
 
 
