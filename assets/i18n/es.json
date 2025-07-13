@@ -11,8 +11,8 @@
     "qa_manual_desc": "Creación y ejecución de casos de prueba. Reporte y seguimiento de bugs",
     "qa_auto": "QA Automation",
     "qa_auto_desc": "Desarrollo y ejecución de scripts automatizados con Cypress y Selenium.",
-    "dict": "Diccionario y traducciones",
-    "dict_desc": "Gestión de traducciones de Aplicaciones Web con Excel+IA.",
+    "api_testing": "API Testing",
+    "api_desc": "Exploración y validación de endpoints REST con Postman y Swagger.",
     "teamwork": "Trabajo en equipo",
     "teamwork_desc": "Comunicación continua con los equipos de desarrollo y QA...",
     "testimonials": "Testimonios",
@@ -51,35 +51,24 @@
         "dani": "Compartí equipo de trabajo con Alejandro y fue un excelente compañero, es una persona que siempre está predispuesta a ayudar y muy atenta ante cualquier detalle."
     },
     "teamknowlogy": {
-        "1": "Testing manual y automation (Cypress y Selenium) en aplicacion WEB.",
-        "2": "Interpretación de Casos de Uso, requerimientos e historias de usuario.",
-        "3": "Diseño y ejecución de casos de prueba",
-        "4": "Registro de bugs y seguimiento hasta su resolución.",
-        "5": "Seguimiento y control de actividades a través de JIRA",
-        "6": "Trabajo bajo metodologías Kanban"
+        "1": "QA Tester encargado del aseguramiento de calidad de aplicaciones web.",
+        "2": "Diseño y ejecución de casos de prueba manuales y automatizados.",
+        "3": "Reporte y seguimiento de bugs en JIRA bajo metodología Kanban.",
+        "4": "Automatización de pruebas con Cypress (JavaScript) y Selenium (Java).",
+        "5": "Testing de APIs con Postman y pruebas de rendimiento con JMeter.",
+        "6": "Colaboración con desarrolladores y product owners en entornos ágiles para garantizar entregas de calidad."
     },
     "elektrothermit": {
-        "1": "Encargado del sector de compras",
-        "2": "Atencion presencial y telefónica a proveedores",
-        "3": "Analisis y comparaciones de precios y prestaciones de servicios",
-        "4": "Manejo de SQL para la gestion de logística de personal y obras",
-        "5": "Asistencia al sector contable en carga de facturación de clientes/proveedores",
-        "6": "Tareas de cobranzas"
+        "1": "Encargado de compras y logística. Gestión de personal, SQL y soporte administrativo."
     },
     "mad": {
-        "1": "Trabajo part-time temporal",
-        "2": "Tareas de asistencia de grabacion profesional en Protools",
-        "3": "Monitoreo de sonido en vivo.",
-        "4": "Tareas de Community Manager",
-        "5": "Servicios audiovisuales"
+        "1": "Asistencia técnica en grabación y sonido. Gestión de redes sociales y servicios audiovisuales."
     },
     "akua": {
-        "1": "Pasantía realizando tareas de tramitación de documentación y confección de mails, informes y documentos en general",
-        "2": "Labores en facturación y remitos",
-        "3": "Asistencia en la gestion de horarios de los empleados",
-        "4": "Clasificación,distribución de correspondencia y documentación recibida"
+        "1": "Pasantía administrativa: soporte documental, facturación y asistencia en tareas de oficina."
     },
     "course": {
+        "8": "Selenium con Python (The free range tester) - Udemy (2025)",
         "7": "ETL Data Testing (The free range tester) - Udemy (2025)",
         "6": "Playwright (The free range tester) - Udemy (2025)",
         "5": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
@@ -95,11 +84,14 @@
         "3": "• Javascript desde cero"
     },
     "skill": {
-        "1": "Automation con Cypress",
-        "2": "Automation con Selenium",
+        "1": "Cypress (JavaScript)",
+        "2": "Selenium (Java)",
         "3": "Testing manual (UI)",
         "4": "JIRA",
         "5": "SQL",
-        "6": "Postman"
+        "6": "Postman",
+        "7": "Playwright (TypeScript)",
+        "8": "Selenium (Python)",
+        "9": "Jmeter"
     }
 }
