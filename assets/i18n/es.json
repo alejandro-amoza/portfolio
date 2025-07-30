@@ -108,6 +108,9 @@
         "ui_testing_playwright3": "Casos de prueba: login válido, inválido, campos vacíos y redirecciones.",
         "api_testing_postman": "API Testing",
         "api_testing_postman2": "FakeStoreAPI con Postman",
-        "api_testing_postman3": "Test de login y CRUD de productos usando Postman."
+        "api_testing_postman3": "Test de login y CRUD de productos usando Postman.",
+        "api_testing_karate": "API Testing",
+        "api_testing_karate2": "JsonPlaceholder bajo API Testing con Karate",
+        "api_testing_karate3": "Validación de endpoints públicos."
     }
 }
