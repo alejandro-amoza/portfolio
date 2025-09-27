@@ -44,6 +44,7 @@
     "audiovision": "Licenciatura en Audiovisión",
     "blog": "Taller QA",
     "personal": "Prácticas",
+    "present": "Presente",
     "footer": "© 2025 Alejandro Amoza — Hecho con ❤️",
     "testimonial": {
         "agustin": "Tuve la oportunidad de trabajar con Alejandro durante un tiempo en TeamKnowlogy y fue una experiencia muy positiva. Como QA Tester, demostró compromiso, atención al detalle y una muy buena comunicación con el equipo de desarrollo. A pesar del corto tiempo compartido, su profesionalismo y buena predisposición dejaron una excelente impresión.",
@@ -51,6 +52,14 @@
         "julio": "Es un placer recomendar a Alejandro como un profesional excepcional con quien he tenido el privilegio de trabajar. Durante nuestro tiempo juntos, he podido apreciar su dedicación inquebrantable, su calidez humana y su notable profesionalismo. Alejandro destaca por su capacidad para mantener un alto nivel de compromiso y excelencia en todo lo que hace. Su enfoque meticuloso en las tareas y su habilidad para superar obstáculos demuestran su compromiso con la calidad y la eficiencia en el trabajo. Además de sus habilidades técnicas, su empatía y respeto hacia sus colegas son verdaderamente admirables. Siempre está dispuesto a escuchar y ofrecer apoyo, lo que crea un ambiente de trabajo colaborativo y armonioso. En resumen, Alejandro es una persona excepcional tanto profesional como personalmente. Su ética de trabajo, su empatía y su compromiso con la excelencia son ejemplos a seguir para todos los que tienen el privilegio de trabajar a su lado.",
         "ramiro": "Alejandro, Una de las mejores personas que me toco conocer en todos mis trabajos de desarrollo de software. Una persona que busca soluciones en todo momento, que jamás te abandonará en momentos dificiles y que la proactividad laboral es un don nato anexo a él. La capacidad de aprendizaje y adaptabilidad a nuevos entornos son algunas de sus virtudes que más me han sorprendido a lo largo de los años trabajando junto a él. Pocas personas tan recomendables y que me ha resultado tan fácil escribir estas palabras refiriendome a Alejandro. En resumen, un empleado que todas las empresas (pequeñas, medianas y grandes) desearían tener presente.",
         "dani": "Compartí equipo de trabajo con Alejandro y fue un excelente compañero, es una persona que siempre está predispuesta a ayudar y muy atenta ante cualquier detalle."
+    },
+    "techforb": {
+        "1": "QA Tester encargado del aseguramiento de calidad de aplicaciones web.",
+        "2": "Creación y ejecución de casos de prueba en Testmo",
+        "3": "Registro y seguimiento de incidencias en Jira",
+        "4": "Validación de requerimientos e historias de usuario",
+        "5": "Pruebas funcionales en aplicaciones web y APIs con Postman",
+        "6": "Colaboración en entornos ágiles (Scrum/Kanban) con equipos distribuidos"
     },
     "teamknowlogy": {
         "1": "QA Tester encargado del aseguramiento de calidad de aplicaciones web.",
@@ -104,7 +113,7 @@
         "api_testing_playwright2": "JsonPlaceholder bajo API Testing con Playwright",
         "api_testing_playwright3": "Validación de endpoints públicos: status HTTP, estructura de respuesta, campos requeridos e ID generado.",
         "ui_testing_playwright": "UI Testing",
-        "ui_testing_playwright2": "Login automatizado en OrangeHRM",
+        "ui_testing_playwright2": "Login automatizado en OrangeHRM con Playwright",
         "ui_testing_playwright3": "Casos de prueba: login válido, inválido, campos vacíos y redirecciones.",
         "api_testing_postman": "API Testing",
         "api_testing_postman2": "FakeStoreAPI con Postman",

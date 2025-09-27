@@ -44,6 +44,7 @@
   "audiovision": "Degree in Audiovisual Studies",
   "blog": "QA Lab",
   "personal": "Practices",
+  "present": "Present",
   "footer": "© 2025 Alejandro Amoza — Built with ❤️",
   "testimonial": {
     "agustin": "I had the opportunity to work with Alejandro for a while at TeamKnowlogy, and it was a very positive experience. As a QA Tester, he showed commitment, attention to detail, and excellent communication with the development team. Despite the short time we worked together, his professionalism and positive attitude left a great impression.",
@@ -52,6 +53,14 @@
     "ramiro": "Alejandro is one of the best people I’ve had the chance to meet throughout all my years working in software development. He’s someone who constantly looks for solutions, who will never leave you alone in difficult moments, and whose proactivity at work feels like a natural gift. His ability to learn and adapt to new environments are among the qualities that have impressed me the most over the years working alongside him. There are very few people I would recommend as strongly, and writing these words about Alejandro comes incredibly easily. In short, he’s the kind of employee every company—small, medium, or large—would be lucky to have on their team.",
     "dani": "I had the pleasure of working on the same team as Alejandro, and he was an excellent colleague. He’s someone who is always willing to help and very attentive to every detail."
   },
+  "techforb": {
+    "1": "QA Tester responsible for quality assurance of web applications.",
+    "2": "Creation and execution of test cases in Testmo.",
+    "3": "Logging and tracking of issues in Jira.",
+    "4": "Validation of requirements and user stories.",
+    "5": "Functional testing of web applications and APIs using Postman.",
+    "6": "Collaboration in agile environments (Scrum/Kanban) with distributed teams."
+},
   "teamknowlogy": {
     "1": "QA Tester responsible for ensuring the quality of web applications.",
     "2": "Designed and executed manual and automated test cases. ",
@@ -104,7 +113,7 @@
     "api_testing_playwright2": "JsonPlaceholder API Testing with Playwright",
     "api_testing_playwright3": "Validation of public endpoints: HTTP status, response structure, required fields, and generated ID.",
     "ui_testing_playwright": "UI Testing",
-    "ui_testing_playwright2": "Automated Login in OrangeHRM",
+    "ui_testing_playwright2": "Automated Login in OrangeHRM with Playwright",
     "ui_testing_playwright3": "Test cases: valid login, invalid login, empty fields, and redirections.",
     "api_testing_postman": "API Testing",
     "api_testing_postman2": "FakeStoreAPI with Postman",
