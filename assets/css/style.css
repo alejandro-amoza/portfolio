@@ -288,6 +288,7 @@ article.active {
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
+  
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
@@ -867,54 +868,92 @@ main {
 
 .clients {
   margin-bottom: 15px;
+  position: relative;
 }
 
-.clients-list {
+.clients-title {
+  margin-bottom: 25px;
+}
+
+/* Contenedor scrollable (solo para .clients dentro de .clients) */
+.clients .clients-list.has-scrollbar {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
+  align-items: center;
+  gap: 30px;
+  margin: 0 -30px;
+  padding: 40px;
+  padding-bottom: 50px;          
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  scroll-snap-type: x mandatory;       
+  scroll-padding-inline: 30px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;       
+  scrollbar-color: var(--orange-yellow-crayola) transparent;
+  
 }
 
-.clients-item {
-  min-width: 50%;
+/* WebKit (Chrome, Edge, Safari) */
+.clients .clients-list.has-scrollbar::-webkit-scrollbar {
+  height: 4px;       /* línea más fina */
+}
+
+.clients .clients-list.has-scrollbar::-webkit-scrollbar-track {
+  background: transparent;  /* track invisible */
+}
+
+.clients .clients-list.has-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--orange-yellow-crayola);
+  border-radius: 999px;     /* extremo redondeado tipo “pill” */
+  border: 0;                /* sin borde, sin flechitas */
+}
+
+.clients .clients-list.has-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #ffcc33; /* opcional: destaca al pasar mouse */
+}
+
+/* Cada logo */
+.clients .clients-item {
+  flex: 0 0 auto;
+  min-width: 150px;               /* evita que un logo ocupe todo el ancho */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   scroll-snap-align: start;
+  padding: 4px 6px;
 }
 
-.clients-item img {
+.clients .clients-item > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  height: 100%;
+}
+
+/* Imágenes / logos */
+.clients .clients-item img {
+  max-width: 100%;
+  max-height: 80px;               /* controla altura visual de los logos */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
   filter: grayscale(1);
-  transition: var(--transition-1);
+  transition: var(--transition-1, transform 150ms ease, filter 150ms ease, opacity 150ms ease);
+  opacity: 1;
 }
 
-.clients-item img:hover {
-  filter: grayscale(0);
-  opacity: 0.3;
-  /* Esto agrega transparencia del 50% */
+.clients .clients-item img:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.03);
 }
 
-.itsabout-img {
-  margin-top: 105px;
-  /* Ajusta este valor hasta que esté alineado con la otra imagen */
-}
-
-.eta-img {
-  margin-top: 65px;
-  /* Ajusta este valor hasta que esté alineado con la otra imagen */
-  width: 130px !important;
-  /* Añadir !important si otros estilos lo sobrescriben */
-  height: auto !important;
-}
-
-
+/* Logos especiales (ajustes individuales) */
+.clients .itsabout-img { max-height: 90px; align-self: center; }
+.clients .eta-img    { max-height: 90px; align-self: center; width: auto !important; height: auto !important; }
 
 /*-----------------------------------*\
   #RESUME
@@ -1815,20 +1854,6 @@ textarea.form-input::-webkit-resizer {
     width: 35px;
   }
 
-  /* clients */
-
-  .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .clients-item {
-    min-width: calc(33.33% - 35px);
-  }
-
-
 
   /**
    * #RESUME
@@ -1927,6 +1952,7 @@ textarea.form-input::-webkit-resizer {
 
   .has-scrollbar::-webkit-scrollbar-button {
     width: 100px;
+    
   }
 
 
@@ -2437,6 +2463,8 @@ textarea.form-input::-webkit-resizer {
     font-size: 0.65rem;
     padding: 10px;
   }
+
+
 
 
 }
